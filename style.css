@@ -1,0 +1,257 @@
+html {
+  overflow: hidden;
+}
+
+head {
+  position: fixed;
+  float: top;
+}
+body {
+  position: relative;
+  background: url(./Images/1.jpg);
+  height: 800px;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Number1 Number2 Number3 Number4"
+    "Number5 Number6 Number7 Number8"
+    "Number9 Number10 Number11 Number12";
+}
+
+.Number1 { grid-area: Number1; }
+
+.Number2 { grid-area: Number2; }
+
+.Number3 { grid-area: Number3; }
+
+.Number4 { grid-area: Number4; }
+
+.Number5 { grid-area: Number5; }
+
+.Number6 { grid-area: Number6; }
+
+.Number7 { grid-area: Number7; }
+
+.Number8 { grid-area: Number8; }
+
+.Number9 { grid-area: Number9; }
+
+.Number10 { grid-area: Number10; }
+
+.Number11 { grid-area: Number11; }
+
+.Number12 { grid-area: Number12; }
+
+.boxNumber {
+  margin: 0px;
+  padding: 68px;
+  border-style: dotted;
+}
+
+
+
+.marginT {
+  margin-top: 20px;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: rgb(156, 10, 10);
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 5px;
+}
+
+.select {
+  overflow: hidden;
+  background-color: rgb(250, 176, 39);
+  color: rgb(250, 176, 39);
+  position: relative;
+  border-color: black;
+}
+
+.backcolor {
+  background-color: rgb(226, 226, 154);
+}
+
+.select:hover {
+  padding: 0px;
+  background-color: rgb(0, 236, 253);
+  color: rgb(0, 236, 253);
+  line-height: 300%;
+  text-align: center;
+  position: inline;
+  list-style-position: inside
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.nav h1:hover {
+  padding: 0px;
+  background-color: rgb(0, 236, 253);
+  color: black;
+}
+
+footer {
+  overflow: hidden;
+  color: rgb(0, 34, 34);
+  border-width: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  padding: 15px;
+  background-color: rgb(0, 236, 253);
+  color: black;
+}
+
+
+.first {
+  margin-top: 80px;
+  padding: 10px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.center {
+  line-height: 300%;
+  text-align: center;
+  position: inline;
+  list-style-position: inside
+}
+
+#list {
+  line-height: 2;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.box div {
+  display: inline-block;
+  width: 80px;
+  height: 100px;
+  margin: 50px 150px;
+  padding: 10px 80px;
+  font-size: 15pt;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  }
+
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+
+.heroboxT {
+  position: static;
+  bottom: 40px;
+}
+
+.heroboxB {
+  position: absolute;
+  top: 100px;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.play {
+  background-color: rgb(5, 218, 5);
+}
+
+.form {
+  line-height: 200%;
+  position: inline;
+  list-style-position: inside
+}
+
+.z-1 {
+  position: absolute;
+  bottom: 150px;
+  left: 80px;
+  z-index: -1;
+}
+
+.z0 {
+  left: 700px;
+  z-index: 0;
+}
+
+.z1 {
+  
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.z3 {
+  z-index: 3;
+}
+
+#p2, p2A {
+  margin: 0;
+}
+
+
+  
